@@ -1,0 +1,190 @@
+.shopSales{
+    display: flex;
+    height:100%;
+    width:90%;
+    gap:10%;
+    margin-left: 5%
+    
+}
+.card2{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; */
+    justify-content: space-around;
+    height: fit-content;
+    width: 70%;
+
+
+    
+    
+}
+
+.card2 img{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.doggie img{
+    height: auto;
+    width: 100%;
+}
+
+
+.latest{
+    display: flex;
+    height:100%;
+    width:90%;
+    gap:2%;
+    margin-left: 5%;
+    margin-top: 8%;
+    
+}
+.shoe{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; */
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+}
+
+.shoe img{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.image{
+    height: auto;
+    width: 100%;;
+    margin-top: 30%;
+}
+
+.collection{
+    display:flex;
+    margin-top: 10%;
+
+}
+
+.campus{
+    margin-top: 8%;
+    /* flex:50% */
+
+}
+
+.puma{
+    flex:100%
+
+}
+
+.puma img{
+    height:auto;
+    width:100%
+}
+
+.campus div{
+
+    color: #1f1f1f;
+    font: 600 24px Open Sans,sans-serif;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+  
+}
+
+.campus p{
+
+    font: 30px ;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+  
+
+}
+
+
+.SalesTitle{
+    margin-top: 5%;
+}
+
+.SalesTitle>p{
+    color: #1f1f1f;
+    font: 600 24px Open Sans,sans-serif;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    text-align: left;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    width: 100%;
+    margin-top: 3%;
+
+}
+
+.box1 img{
+    /* height:100%;
+        width:45%; */
+        height:40%;
+        width:60%;
+        margin:auto;
+        /* margin-bottom:20px; */
+        display:flex;
+        
+    /* left: 50%;
+    max-height: calc(100% - 8px);
+    max-width: calc(100% - 24px);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.box1 p{
+    line-height: normal;
+    margin: 0;
+    margin-top: 5%;
+    color: #1f1f1f;
+    padding: 0;
+    display: block;
+}
+
+.campus img{
+    margin-bottom: 3%;
+}
+
+.photo{
+    margin-bottom: 20%;
+}
+
+.dog img{
+    margin-top: 7%;
+    height:auto;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.p1{
+    color: #1f1f1f;
+    font: 600 18px Open Sans,sans-serif;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.p2{
+    margin-bottom: 8px;
+    color: #1f1f1f;
+    font: 400 14px Open Sans,sans-serif;
+    display: block;
+    text-align: center;
+}
+
+
+
