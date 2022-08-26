@@ -6,6 +6,9 @@ import HomePage from "./HomePage";
 import Women from "./Women";
 import Men from "./Men";
 import Kids from "./Kids";
+import SaleCategories from "./SaleCategories";
+import Sales from "./Sales";
+
 //import PrivateRoute from "../Components/PrivateRoute";
 
 function AllRoutes() {
@@ -20,6 +23,9 @@ function AllRoutes() {
         <Route path="/Brands" element={ <h1>Brands</h1> } />
         <Route path="/Sales" element={ <h1>Sales</h1> } />
         <Route path="/SignIn" element={ <h1>Sign In</h1> } />
+        <Route path="/SalesCategories" element={ <SaleCategories/> } />
+        <Route path="/Sales" element={ <Sales /> } />
+       
         {/* <Route path="/contact" element={<ContactPage />} />
         <Route
           path="/users"

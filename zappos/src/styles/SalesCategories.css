@@ -1,0 +1,46 @@
+.SalesTitle{
+    margin-top: 5%;
+}
+
+.SalesTitle>p{
+    color: #1f1f1f;
+    font: 600 24px Open Sans,sans-serif;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    text-align: left;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    width: 100%;
+
+}
+
+.box1 img{
+    /* height:100%;
+        width:45%; */
+        height:40%;
+        width:60%;
+        margin:auto;
+        /* margin-bottom:20px; */
+        display:flex;
+    /* left: 50%;
+    max-height: calc(100% - 8px);
+    max-width: calc(100% - 24px);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.box1 p{
+    line-height: normal;
+    margin: 0;
+    margin-top: 5%;
+    color: #1f1f1f;
+    padding: 0;
+    display: block;
+}

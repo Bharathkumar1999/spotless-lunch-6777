@@ -4,29 +4,32 @@ import "../styles/HomePage.css"
 
 
 import React from 'react'
+import SaleCategories from "./SaleCategories";
+import Sales from "./Sales";
+
 
 export const HomePage = () => {
   return (
     <div>
     <div className='home-img'>
-    <img src="https://m.media-amazon.com/images/G/01/2022/homepage8.22/SALE-VIP-SITE-HERO-1080x720.gif" alt="" />
-    {/* <img src="https://m.media-amazon.com/images/G/01/2022/homepage8.22/SALE-VIP-SITE-HERO-1080x720.gif%201x" alt="" /> */}
+        <img src="https://m.media-amazon.com/images/G/01/2022/homepage8.22/SALE-VIP-SITE-HERO-1080x720.gif" alt="" />
 
+    
     </div>
 
+    <SaleCategories/>
+    <Sales/>
+
+  
+
     </div>
+    
 
 
-    // <div className='home-img'>
-    //     <img src="https://m.media-amazon.com/images/G/01/2022/homepage8.22/SALE-VIP-SITE-HERO-1080x720.gif" alt="" />
-    //     {/* <img src="https://m.media-amazon.com/images/G/01/2022/homepage8.22/SALE-VIP-SITE-HERO-1080x720.gif%201x" alt="" /> */}
-
-    // </div>
   )
 }
 
-// import React from 'react';
-// import { saleCategories } from '../helpers/saleCategories';
+
 
 
 

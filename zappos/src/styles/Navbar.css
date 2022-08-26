@@ -11,7 +11,7 @@
     text-align: left;
   } */
   .NavFirstDiv{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     justify-content: space-between;
     /* height: 80px */
@@ -24,7 +24,7 @@
   }
   .NavLogo>img{
     height: 50px;
-    border:1px solid blue ;
+    /* border:1px solid blue ; */
     justify-content: left;
     align-items: center;
     /* margin-left: -320px; */
@@ -32,9 +32,9 @@
     /* margin-left:0% */
     /* margin-right: 400px; */
   }
-  .NavCart{
+  /* .NavCart{
     border: 1px solid brown;
-  }
+  } */
 
   .NavCart button{
     height: auto;
@@ -48,7 +48,7 @@
   }
 
   .NavInput{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     /* margin-right: 1080px; */
@@ -120,7 +120,7 @@
   } */
 
   .nav1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     height: 30px;
     /* justify-content: space-between; */
@@ -140,7 +140,7 @@
   }
 
   .nav2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     height: 50px;
     background-color: #0076bd;
@@ -171,7 +171,7 @@
 
 
   .footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     /* justify-content: space-between; */
     height: auto;
@@ -187,7 +187,7 @@
   .foot1{
     height: auto;
     width: 25%;
-    border:1px solid blue ;
+    /* border:1px solid blue ; */
     justify-content: left;
     align-items: center;
     /* margin-left: -320px; */
@@ -196,7 +196,7 @@
     /* margin-right: 400px; */
   }
   .foot2{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     justify-content: left;
     align-items: center;
     width:25%;
@@ -205,7 +205,7 @@
   
 
   .foot3{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     justify-content: left;
     align-items: center;
     width:25%;
@@ -217,7 +217,7 @@
 
   .foot4{
     
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     justify-content: center;
     align-items: center;
     width:25%;

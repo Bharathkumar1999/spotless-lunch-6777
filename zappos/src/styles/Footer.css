@@ -1,9 +1,11 @@
 .footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     /* justify-content: space-between; */
     height: auto;
     width:100%;
+    background: #b3d4fc;
+    color: white;
     /* height: 80px */
     /* width: 100%; */
 
@@ -15,28 +17,34 @@
   .foot1{
     height: auto;
     width: 25%;
-    border:1px solid blue ;
+    /* border:1px solid blue ; */
     justify-content: left;
     align-items: center;
+    background: #4682B4;
+    color: white;
     /* margin-left: -320px; */
     /* margin-right: 900px */
     /* margin-left:0% */
     /* margin-right: 400px; */
   }
   .foot2{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     justify-content: left;
     align-items: center;
     width:25%;
+    background: #4682B4;
+    color: white;
   }
 
   
 
   .foot3{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     justify-content: left;
     align-items: center;
     width:25%;
+    background: #4682B4;
+    color: white;
     /* display: flex; */
    
 
@@ -44,12 +52,14 @@
   }
 
   .foot4{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     justify-content: left;
     align-items: center;
     display: block;
     
     width:25%;
+    background:#4682B4;
+    color: white;
   
   }
 
