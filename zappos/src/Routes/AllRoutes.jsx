@@ -9,12 +9,18 @@ import Kids from "./Kids";
 import SaleCategories from "./SaleCategories";
 import Sales from "./Sales";
 
+// import Cart from "./Cart";
+
 //import PrivateRoute from "../Components/PrivateRoute";
 
 function AllRoutes() {
+  
+
   return (
     <div>
+    
       <Routes>
+
         <Route path="/" element={<HomePage />} />
         <Route path="/Women" element={<Women />} />
         <Route path="/Men" element={<Men />} />
@@ -25,9 +31,13 @@ function AllRoutes() {
         <Route path="/SignIn" element={ <h1>Sign In</h1> } />
         <Route path="/SalesCategories" element={ <SaleCategories/> } />
         <Route path="/Sales" element={ <Sales /> } />
+        {/* <Route path="/Amazon" element={ <Amazon /> } /> */}
+        {/* <Route path="/Cart" element={ <Cart /> } /> */}
+        
+
        
         {/* <Route path="/contact" element={<ContactPage />} />
-        <Route
+        <RouteY
           path="/users"
           element={
             <PrivateRoute>
