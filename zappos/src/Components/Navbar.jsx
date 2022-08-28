@@ -41,7 +41,7 @@ import "../styles/Navbar.css"
 //   },
 // ];
 
-function Navbar() {
+function Navbar({setShow,size}) {
     // const [showLinks, setShowLinks]= useState(true)
     // const activeStyle = {
     //     color: "red",
@@ -84,7 +84,7 @@ function Navbar() {
 
       
         <div className="NavFirstDiv">
-            <div className="NavLogo">
+            <div className="NavLogo" onClick={()=>setShow(true)}>
                 <img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg" alt="logo" />
                 
             </div>
@@ -93,8 +93,9 @@ function Navbar() {
                 <button>Search</button>
 
             </div>
-            <div className="NavCart">
+            <div className="NavCart" onClick={()=>setShow(false)}>
                 <button>My Cart</button>
+                <span>{size}</span>
                 {/* <div>Add To Cart</div> */}
             </div>
         </div>
