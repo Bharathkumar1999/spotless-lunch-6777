@@ -143,7 +143,7 @@ function Navbar({setShow,size}) {
             
 
             <div className="SignIn">
-                <Link className="link1" to="/SignIn">Sign In / Register</Link>
+                <Link className="link1" to="/Login">Sign In / Register</Link>
                 
             </div>
 

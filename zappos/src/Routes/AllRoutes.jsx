@@ -8,6 +8,8 @@ import Men from "./Men";
 import Kids from "./Kids";
 import SaleCategories from "./SaleCategories";
 import Sales from "./Sales";
+import { Login } from "./Login";
+// import  SignUp  from "./SignUp";
 
 // import Cart from "./Cart";
 
@@ -28,9 +30,10 @@ function AllRoutes() {
         <Route path="/Departments" element={ <h1>Departments</h1> } />
         <Route path="/Brands" element={ <h1>Brands</h1> } />
         <Route path="/Sales" element={ <h1>Sales</h1> } />
-        <Route path="/SignIn" element={ <h1>Sign In</h1> } />
+        <Route path="/Login" element={ <Login/> } />
         <Route path="/SalesCategories" element={ <SaleCategories/> } />
         <Route path="/Sales" element={ <Sales /> } />
+        {/* <Route path="/SignUp" element={ <Sales /> } /> */}
         {/* <Route path="/Amazon" element={ <Amazon /> } /> */}
         {/* <Route path="/Cart" element={ <Cart /> } /> */}
         
