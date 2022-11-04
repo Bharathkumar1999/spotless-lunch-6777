@@ -14,6 +14,9 @@ Zappos.com is an American online shoe and clothing retailer based in Las Vegas, 
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+### Project Code : 
+- spotless-lunch-6777
+
 ### Features :
 
 - Login and Signin facility.
@@ -21,10 +24,8 @@ Zappos.com is an American online shoe and clothing retailer based in Las Vegas, 
 - Multiple Product Pages 
 - Responsive website.
 
+### Deployment on vercel :https://zappos-ruddy.vercel.app/
+
 ### Demo Video : https://drive.google.com/file/d/1Gfq0LLdMZjFJrPqUWLlGpJSQht_L5ysu/view
-
-
-### Project Code : 
-- spotless-lunch-6777
 
 
